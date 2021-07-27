@@ -7,9 +7,9 @@ server:
 spring:
     datasource:
             driver-class-name: org.postgresql.Driver
-            url: postgres://pbqlvwuesdoamf:2b9a9c30f5b21b4b0d6d10aa0cbf916a594b7d462239e99cea3cc223fc7339a5@ec2-52-45-179-101.compute-1.amazonaws.com:5432/d5drtls4bo2ttq
-            username: pbqlvwuesdoamf
-            password: 2b9a9c30f5b21b4b0d6d10aa0cbf916a594b7d462239e99cea3cc223fc7339a5
+            url: postgres://gvpbmbiibcluty:f9a3a4afb34c552b2a4a1dc5f38cd4187dac8e616ff60fca191705b8ecdb5e27@ec2-54-236-137-173.compute-1.amazonaws.com:5432/d6e70rp307nae5
+            username: gvpbmbiibcluty
+            password: f9a3a4afb34c552b2a4a1dc5f38cd4187dac8e616ff60fca191705b8ecdb5e27
             
 jpa:
     show-sql: true

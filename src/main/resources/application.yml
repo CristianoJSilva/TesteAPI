@@ -9,7 +9,7 @@ spring:
             driver-class-name: org.postgresql.Driver
             url: postgres://udtuqcyxpdrsdi:081bef9c7066f06c63c0ed6dcf1b7eb2b2f9cf1a4a3f10dd25e6d318b5194c72@ec2-35-168-145-180.compute-1.amazonaws.com:5432/d8apvvph598phd
             username: udtuqcyxpdrsdi
-            password: d3fa9ba00035aa61c6cf4593101741eafe5f819a18c2584131c267b92093608f
+            password: 081bef9c7066f06c63c0ed6dcf1b7eb2b2f9cf1a4a3f10dd25e6d318b5194c72
             
 jpa:
     show-sql: true

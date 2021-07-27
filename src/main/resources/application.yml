@@ -7,16 +7,16 @@ server:
 spring:
     datasource:
             driver-class-name: org.postgresql.Driver
-            url: jdbc:postgresql://ec2-23-20-124-77.compute-1.amazonaws.com:5432/d56fhj42013brc
-            username: rvckyeqgdaydhd
-            password: d3fa9ba00035aa61c6cf4593101741eafe5f819a18c2584131c267b92093608f
+            url: jdbc:postgresql://192.168.15.21:5432/postgres
+            username: postgres
+            password: 123456
             
 jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    generate-ddl: true
+    generate-ddl: false
     hibernate:
     ddl-auto: nome
 
 application:
-    description: Projeto Cristiano Silva
+    description: Projeto Cristiano Silva teste de API

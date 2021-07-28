@@ -7,16 +7,16 @@ server:
 spring:
     datasource:
             driver-class-name: org.postgresql.Driver
-            url: jdbc:postgresql://ec2-35-168-145-180.compute-1.amazonaws.com:5432/d8apvvph598phd
-            username: udtuqcyxpdrsdi
-            password: 081bef9c7066f06c63c0ed6dcf1b7eb2b2f9cf1a4a3f10dd25e6d318b5194c72
+            url: postgres://iaaadwrcmsmlwu:485e442b72af0c375791f63e90b50fdf5fe454318857a6d3e10ea92a45a407ad@ec2-52-45-183-77.compute-1.amazonaws.com:5432/deaf3373lkaf59
+            username: iaaadwrcmsmlwu
+            password: 485e442b72af0c375791f63e90b50fdf5fe454318857a6d3e10ea92a45a407ad
             
 jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     generate-ddl: true
     hibernate:
-    ddl-auto: yes
+    ddl-auto: 
 
 application:
     description: Projeto Cristiano Silva teste de API

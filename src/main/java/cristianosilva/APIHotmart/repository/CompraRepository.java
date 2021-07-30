@@ -12,14 +12,14 @@ import org.springframework.stereotype.Repository;
  * @author Cristiano Silva
  */
 @Repository
-public interface CompraRepository  extends JpaRepository<Compra, Long>{
+public interface CompraRepository  extends JpaRepository<Compra, String>{
 
-    Optional<Compra> findByTransactionAndProd(Long transaction, String prod);
+    Optional<Compra> findByTransactionAndProd(String transaction, String prod);
 
     @Query("SELECT compra " +
             "FROM Compra compra " +
             "WHERE compra.transaction = :transaction AND compra.status = :status AND compra.id <> :id")
-    Optional<Compra> findByStockUpdate(@Param("transaction") Long transaction,@Param("status") String status,@Param("id") Long id);
+    Optional<Compra> findByStockUpdate(@Param("transaction") String transaction,@Param("status") String status,@Param("id") Long id);
     
   
    

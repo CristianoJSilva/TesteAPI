@@ -19,8 +19,8 @@ public class CompraMapper {
         stock.setTransaction(dto.getTransaction());
         stock.setStatus(dto.getStatus());
         stock.setEmail(dto.getEmail());
-        stock.setFirstName(dto.getFirstName());
-        stock.setLastName(dto.getLastName());
+        stock.setFirst_name(dto.getFirst_name());
+        stock.setLast_name(dto.getLast_name());
         stock.setProd(dto.getProd());
         return stock;
     }
@@ -31,8 +31,8 @@ public class CompraMapper {
         dto.setTransaction(stock.getTransaction());
         dto.setStatus(stock.getStatus());
         dto.setEmail(stock.getEmail());
-        dto.setFirstName(stock.getFirstName());
-        dto.setLastName(stock.getLastName());
+        dto.setFirst_name(stock.getFirst_name());
+        dto.setLast_name(stock.getLast_name());
         stock.setProd(stock.getProd());
         return dto;
     }

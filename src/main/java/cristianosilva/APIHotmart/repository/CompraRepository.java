@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
  * @author Cristiano Silva
  */
 @Repository
-public interface CompraRepository  extends JpaRepository<Compra, String>{
+public interface CompraRepository  extends JpaRepository<Compra, Long>{
 
     Optional<Compra> findByTransactionAndProd(String transaction, String prod);
 
